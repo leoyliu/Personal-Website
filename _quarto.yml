@@ -3,12 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "website"
+  title: "Leo Liu"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+        text: About
 
 format:
   html:
