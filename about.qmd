@@ -13,11 +13,10 @@ title: "About Me"
 </head>
 
 <body>
-  <main>
-    <p class="claim">Hey there, welcome to my personal space on the web!</p>
-    <p class="claim">I'm Yuanyi (Leo) Liu, a Computer Science Specialist and Statistical Sciences Major at the University of Toronto. My university journey is a blend of rigorous academics and practical experience. Through projects like FOODQEE, I've honed my skills in software design and development. Beyond the classroom, I've engaged in internships and projects that not only enrich my skills but also my perspective on how technology can be leveraged to solve real-world problems. When I'm not buried in projects, you might find me leading the charge at tech summits or geeking out over the latest in open-source. Dive into my world, where coding meets creativity and community.</p>
-    <p class="claim"> Check out my CV below for the full story!</p>
-
+  <main class="aboutcontent">
+    <p>Hey there, welcome to my personal space on the web!</p>
+    <p>I'm Yuanyi (Leo) Liu, a Computer Science Specialist and Statistical Sciences Major at the University of Toronto. My university journey is a blend of rigorous academics and practical experience. Through projects like FOODQEE, I've honed my skills in software design and development. Beyond the classroom, I've engaged in internships and projects that not only enrich my skills but also my perspective on how technology can be leveraged to solve real-world problems. When I'm not buried in projects, you might find me leading the charge at tech summits or geeking out over the latest in open-source. Dive into my world, where coding meets creativity and community.</p>
+    <p> Check out my CV below for the full story!</p>
   </main>
 
 </html>

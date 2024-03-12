@@ -13,7 +13,7 @@ title: "Welcome to Leo's Website"
 </head>
 
 <body>
-  <main>
+  <main class="indexcontent">
     <div class="picture">
       <img src="portrait.jpeg">
     </div>

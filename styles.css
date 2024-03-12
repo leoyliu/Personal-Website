@@ -50,13 +50,22 @@ a:hover {
     padding-right: 2rem;
 }
 
-main {
+.indexcontent {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
     margin: 128px 0.5rem 130px 0.5rem;
+}
+
+.aboutcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 50px 0.5rem 50px 0.5rem;
 }
 
 .picture {
