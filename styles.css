@@ -1,7 +1,14 @@
 /* css styles */
-body {
+.indexbody {
     padding: 0;
-    margin: 0;
+    margin-top: 0;
+    background-color: #EEEEEE;
+    font-family: sans-serif;
+}
+
+.aboutbody {
+    padding: 0;
+    margin-top: 16px;
     background-color: #EEEEEE;
     font-family: sans-serif;
 }
@@ -122,28 +129,4 @@ img {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
-
-.about {
-    color: #333333;
-    margin: 0;
-    font-family: sans-serif;
-    font-size: 46px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-}
-
-.claim {
-    color: #333333;
-    margin: 0;
-    font-family: sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
 }

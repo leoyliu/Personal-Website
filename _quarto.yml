@@ -4,19 +4,24 @@ project:
 
 website:
   title: "Leo Liu"
+  search: false
   navbar:
+    background: dark
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
         text: About
-        
-    page-footer: "Copyright 2024, Leo Liu" 
-    sidebar: false
-  
+  page-footer: 
+     background: dark
+     center: 
+      - text: "Copyright 2024, Yuanyi (Leo) Liu" 
+
 format:
   html:
     theme: cosmo
+    grid:
+      margin-width: 0px
     css: styles.css
     toc: true
 

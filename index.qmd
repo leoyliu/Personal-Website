@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="indexbody">
   <main class="indexcontent">
     <div class="picture">
       <img src="portrait.jpeg">
@@ -19,6 +19,5 @@
     <p class="name">Hi, I'm Leo!</p>
     <a href="./about.html" class="learn_more">Learn More</a>
   </main>
-
 </html>
 ```
