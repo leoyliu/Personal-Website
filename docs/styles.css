@@ -2,7 +2,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #BBBBBB;
+    background-color: #EEEEEE;
     font-family: sans-serif;
 }
 
@@ -50,13 +50,19 @@ a:hover {
     padding-right: 2rem;
 }
 
-main {
+.indexcontent {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
     margin: 128px 0.5rem 130px 0.5rem;
+}
+
+.aboutcontent {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0.5rem 10px 0;
 }
 
 .picture {

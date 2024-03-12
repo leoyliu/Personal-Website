@@ -2,7 +2,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #BBBBBB;
+    background-color: #EEEEEE;
     font-family: sans-serif;
 }
 
@@ -62,10 +62,7 @@ a:hover {
 .aboutcontent {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin: 50px 0.5rem 50px 0.5rem;
+    margin: 50px 0.5rem 10px 0;
 }
 
 .picture {
