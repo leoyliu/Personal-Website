@@ -10,7 +10,10 @@ website:
         text: Home
       - href: about.qmd
         text: About
-
+        
+    page-footer: "Copyright 2024, Leo Liu" 
+    sidebar: false
+  
 format:
   html:
     theme: cosmo
