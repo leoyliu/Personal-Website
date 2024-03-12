@@ -1,1 +1,153 @@
 /* css styles */
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #BBBBBB;
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: white;
+}
+
+.home-clicked {
+    color: #B2F5EA;
+    font-family: sans-serif;
+    font-size: 18.2px;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 2rem;
+}
+
+.home-non-clicked {
+    color: #00B8D4;
+    font-family: sans-serif;
+    font-size: 18.2px;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 1.2rem;
+    padding-right: 2rem;
+}
+
+.about-clicked {
+    color: #B2F5EA;
+    font-family: sans-serif;
+    font-size: 18.2px;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 2rem;
+}
+
+.about-non-clicked {
+    color: #00B8D4;
+    font-family: sans-serif;
+    font-size: 18.2px;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 1.2rem;
+    padding-right: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 128px 0.5rem 130px 0.5rem;
+}
+
+.picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.name {
+    color: #333333;
+    margin: 0;
+    padding-top: 31px;
+    margin-bottom: 13px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 48px;
+}
+
+.learn_more {
+    display: inline-flex;
+    padding: 8px 13px 10px 13px;
+    text-decoration: none;
+    align-items: flex-start;
+    border-radius: 4px;
+    border: 2px solid #007EA8;
+    background: #FFF;
+    color: #007EA8;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 4px;
+}
+
+.learn_more:hover {
+    display: inline-flex;
+    align-items: flex-start;
+    border-radius: 4px;
+    border: 2px solid #FFF;
+    background: #007EA8;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about {
+    color: #333333;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.claim {
+    color: #333333;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    background: #333333;
+    color: white;
+}
